@@ -1,0 +1,29 @@
+
+Env:
+win 11 
+Microsoft Windows
+版本 23H2 (OS 内部版本 22631.4169)© Microsoft Corporation。保留所有权利。
+
+wsl -v
+WSL 版本： 2.2.4.0
+内核版本： 5.15.153.1-2
+WSLg 版本： 1.0.61
+MSRDC 版本： 1.2.5326
+Direct3D 版本： 1.611.1-81528511
+DXCore 版本： 10.0.26091.1-240325-1447.ge-release
+Windows 版本： 10.0.22631.4169
+
+
+wsl -l --all
+适用于 Linux 的 Windows 子系统分发:
+Ubuntu-18.04 (默认)
+docker-desktop
+
+
+Poc:
+
+cmd -> cd  (poc.example -- dir) -> wsl -> cat poc.example   -> wait for crash 
+
+
+
+
