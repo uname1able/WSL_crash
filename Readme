@@ -22,6 +22,8 @@ docker-desktop
 
 Poc:
 
+zip poc.zip
+
 cmd -> cd  (poc.example -- dir) -> wsl -> cat poc.example   -> wait for crash 
 
 
